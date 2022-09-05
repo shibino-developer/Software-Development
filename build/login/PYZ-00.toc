@@ -1,0 +1,713 @@
+('C:\\Users\\Jacob Abram\\Desktop\\TBS\\build\\login\\PYZ-00.pyz',
+ [('subprocess',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\signal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\string.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\ast.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\socket.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\ssl.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\__future__.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Jacob '
+   'Abram\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tkinter\\constants.py',
+   'PYMODULE')])
