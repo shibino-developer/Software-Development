@@ -168,11 +168,10 @@ class supplierClass:
             else:
                 cur.execute("Select * from supplier where invoice=?",(self.var_sup_invoice.get(),))
                 row=cur.fetchone()
-                if row==None:
+                if row!=None:
                     messagebox.showerror("Error","Invalid Invoice No.",parent=self.root)
                 else:
                     cur.execute("Update supplier set name=?,contact=?,supdate=? where invoice=?",(
-                                       
                                         self.var_name.get(),  
                                         self.var_contact.get(),
                                         self.var_supdate.get(),

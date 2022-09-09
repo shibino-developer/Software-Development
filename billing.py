@@ -67,7 +67,7 @@ class billClass:
         scrolly.config(command=self.product_Table.yview) #vertical scrollbar
 
         self.product_Table.heading("pid",text="PID No.")
-        self.product_Table.heading("itemname",text="Item Name")
+        self.product_Table.heading("itemname",text="Itemname")
         self.product_Table.heading("hsncode",text="HSN Code")
         self.product_Table.heading("price",text="Price")
         self.product_Table.heading("qty",text="Qty")
@@ -165,7 +165,7 @@ class billClass:
         scrolly.config(command=self.cartTable.yview) #vertical scrollbar
 
         self.cartTable.heading("pid",text="PID No.")
-        self.cartTable.heading("itemname",text="Item Name")
+        self.cartTable.heading("itemname",text="Itemname")
         self.cartTable.heading("hsncode",text="HSN Code")
         self.cartTable.heading("price",text="Price")
         self.cartTable.heading("qty",text="Qty")
@@ -302,7 +302,7 @@ class billClass:
             if self.var_search.get()=="":
                 messagebox.showerror("Error","Search Input should be required",parent=self.root)
             else:
-                cur.execute("select pid,itemname,hsncode,price,qty,discount from stock where name LIKE '%"+self.var_search.get()+"%'")
+                cur.execute("select pid,itemname,hsncode,price,qty,discount from stock where itemname LIKE '%"+self.var_search.get()+"%'")
                 rows=cur.fetchall()
                 if len(rows)!=0:
                     self.product_Table.delete(*self.product_Table.get_children())
@@ -388,29 +388,60 @@ class billClass:
 
 
     def bill_updates(self):
-        self.bill_amnt=0
+        self.total_sales=0
         # num=[]          pid,itemname,hsncode,price,qty,discount
         self.actualprice=0
+        self.total_sales=0
         self.discount=0
-        for row in self.cart_list:
-            self.actualprice=float(row[3])*float(row[4])
-            # print(self.actualprice)
-            self.discount=(self.actualprice*int(row[5]))/100
-            self.reducedpay=self.actualprice-self.discount
-            self.bill_amnt=self.bill_amnt+float(self.reducedpay)
-    
-            # self.bill_amnt=(self.bill_amnt-(self.bill_amnt*int(row[5]))/100)
-            # num.append(self.bill_amnt)
-            # print(num)
-            # for i in num:
-            #     self.bill_amnt=str(sum(num))
-    
+        self.total_invoice_amount=0
+        self.total_sgst=0
+        self.total_cgst=0
+        self.total_gst=0
+        if self.discount > 0:
+            for row in self.cart_list:
+                self.actual_price=float(row[3])*float(row[4])
+               
+                # print(self.actualprice)
+                self.discount=(self.actualprice*int(row[5]))/100
+                self.reducedpay=self.actualprice-self.discount
+                self.total_sales=self.total_sales+float(self.reducedpay)
+                self.total_gst=(self.total_sales*int(18))/100
+                self.total_sgst=self.total_gst/2
+                self.total_cgst=self.total_gst/2
+                self.total_invoice_amount=self.total_sales+self.total_gst
 
-        print(str(self.bill_amnt))
-    
-        # self.bill_amnt.config(text=f'Bill Amnt\n [{str(self.bill_amnt)}]')
+        
+                # self.total_sales=(self.total_sales-(self.total_sales*int(row[5]))/100)
+                # num.append(self.total_sales)
+                # print(num)
+                # for i in num:
+                #     self.total_sales=str(sum(num))
+        
+
+            print(str(self.total_sales))
+            print(str(self.total_invoice_amount))
+
+            #total sales(A): 
+            #total sgst 9%
+            #total cgst 9%
+            #total gst(B) 18%()
+            #total invoice amount(A+B)
+        
+        # self.total_sales.config(text=f'Bill Amnt\n [{str(self.total_sales)}]')
         # # self.lbl_netpay.config(text=f'Net Pay\n[{str(self.net_pay)}]')
         # self.cartTitle.config(text=f"Cart \t Total Products: [{str(len(self.cart_list))}]")
+        else:
+            for row in self.cart_list:
+                self.actualprice=float(row[3])*float(row[4])
+                self.total_sales=self.total_sales+self.actualprice
+                self.total_gst=(self.total_sales*int(18))/100
+                self.total_sgst=self.total_gst/2
+                self.total_cgst=self.total_gst/2
+                self.total_invoice_amount=self.total_sales+self.total_gst
+            print(str(self.total_sales))
+            print(self.total_invoice_amount)
+           
+
 
 
     def show_cart(self):
@@ -466,7 +497,11 @@ Product Name\tHSN Code\tQTY\t\tPrice\tDiscount
     def bill_bottom(self):
         bill_bottom_temp=f'''
 {str("="*47)}
-Bill Amount\t\t\t\tRs.{self.bill_amnt}
+Total Sales(A)\t\t\t\tRs.{self.total_sales}
+Total sgst(9%)\t\t\t\tRs.{self.total_sgst}
+Total cgst(9%)\t\t\t\tRs.{self.total_cgst}
+Total gst(18%)(B)\t\t\t\tRs.{self.total_gst}
+Total Invoice Amount(A+B)\t\t\t\tRs.{self.total_invoice_amount} 
         '''
         self.txt_bill_area.insert(END,bill_bottom_temp)
 
