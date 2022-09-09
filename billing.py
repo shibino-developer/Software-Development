@@ -487,7 +487,7 @@ Customer Name: {self.var_cname.get()}
 Ph no: {self.var_contact.get()}
 Bill No. {str(self.invoice)}\t\t\tDate: {str(time.strftime("%d/%m/%Y"))}
 {str("="*47)}
-Product Name\tHSN Code\tQTY\t\tPrice\tDiscount
+Product Name\t\t\tHSN Code\tQTY\t\tPrice\tDiscount
 {str("="*47)}
         '''
         self.txt_bill_area.delete('1.0',END)
@@ -501,7 +501,7 @@ Total Sales(A)\t\t\t\tRs.{self.total_sales}
 Total sgst(9%)\t\t\t\tRs.{self.total_sgst}
 Total cgst(9%)\t\t\t\tRs.{self.total_cgst}
 Total gst(18%)(B)\t\t\t\tRs.{self.total_gst}
-Total Invoice Amount(A+B)\t\t\t\tRs.{self.total_invoice_amount} 
+Total Invoice Amount(A+B)\t\t\tRs.{self.total_invoice_amount} 
         '''
         self.txt_bill_area.insert(END,bill_bottom_temp)
 
